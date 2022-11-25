@@ -1,0 +1,60 @@
+<LabTech_Expansion
+	Version="220.394"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>741</ScriptId>
+				<FolderId>145</FolderId>
+				<ScriptName>CIT - Windows 11 Compatibility Check</ScriptName>
+				<ScriptNotes>Execute some PowerShell on the end point to evaluate the Windows 10 workstations for their compatibility with Windows 11 upgrade and set an associated computer EDF, "CIT-Windows 11 Compatibility".</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyE/T2pQlFxVBFESL99qsmEta0gbs20uLQj0NszPfwsDJNeh73NVDbaAaOzQC2KxwjX7bRj9gMBzYwsH+3bkwMWiqVwy9rceEHKNHwnVCJJeSqFKoUgpyOQNb1OHWBNcNdwy9a/309//wzQ/RWaNVIbI0yykvlKJCoKU6LZ6U59Za8dAby/MfPwPAlmvWqw/MlzE73QAAAA==</LicenseData>
+				<ScriptData>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</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>94815356-0844-11ed-938f-06ddd1b97d06</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>283</ID>
+					<Form>1</Form>
+					<Name>CIT-Windows 11 Compatibility</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>2</FType>
+					<Section>CIT - OS Info</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Not Evaluated~Compatible~Not Compatible|Verified if computer is compatible with Windows 11|0</Fill>
+					<LtGuid>cc1f9ed6-9fa0-422b-a428-c1ae39850e6a</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>145</FolderID>
+					<ParentID>0</ParentID>
+					<Name>CWACustom</Name>
+					<GUID>745e3747-1eb8-42f9-b896-1b5a9fc86ced</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
